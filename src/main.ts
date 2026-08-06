@@ -6,8 +6,10 @@ if(n1 != "" && n2 != ""){
     n3=Number(n1);
     n4=Number(n2);
     if(!isNaN(n3) && !isNaN(n4)){
+        const media = (n3+n4)/2;
         console.log("n1 -> "+n3);
         console.log("n2 -> "+n4);
+        console.log("A media dos valores foi: "+media);
     }else{
         console.log("Não eram numeros");
     }
