@@ -1,6 +1,6 @@
 const n1 : string|null = prompt("Informe o numero: ");
 const n2 : string|null = prompt("Informe o numero: ");
-let n3 : number =0 , n4: number=0 ;
+let n3 :number= 0 , n4 :number= 0 ;
 
 if(n1 != "" && n2 != ""){
     n3=Number(n1);
